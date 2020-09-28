@@ -1,0 +1,3642 @@
+{
+	"1": {
+		"answerable": [
+			[
+				"answerable",
+				"How many heads of the departments are born in 'beijing' ?",
+				{
+					"department": [
+						"department id",
+						"name",
+						"creation",
+						"ranking",
+						"budget in billions",
+						"num employees"
+					],
+					"head": [
+						"head id",
+						"name",
+						"born state",
+						"age"
+					],
+					"management": [
+						"department id",
+						"head id",
+						"temporary acting"
+					]
+				}
+			], 
+			[
+				"answerable",
+				"Which farm has the number of pigs more than 10000 ?",
+				{
+					"city": [
+						"city id",
+						"official name",
+						"status",
+						"area km 2",
+						"population",
+						"census ranking"
+					],
+					"farm": [
+						"farm id",
+						"year",
+						"total horses",
+						"working horses",
+						"total cattle",
+						"oxen",
+						"bulls",
+						"cows",
+						"pigs",
+						"sheep and goats"
+					],
+					"farm competition": [
+						"competition id",
+						"year",
+						"theme",
+						"host city id",
+						"hosts"
+					],
+					"competition record": [
+						"competition id",
+						"farm id",
+						"rank"
+					]
+				}
+			],			
+			[
+				"answerable",
+				"Which has the most registrations but the least attendance ?",
+				{
+					"addresses": [
+						"address id",
+						"line 1",
+						"line 2",
+						"city",
+						"zip postcode",
+						"state province county",
+						"country"
+					],
+					"people": [
+						"person id",
+						"first name",
+						"middle name",
+						"last name",
+						"cell mobile number",
+						"email address",
+						"login name",
+						"password"
+					],
+					"students": [
+						"student id",
+						"student details"
+					],
+					"courses": [
+						"course id",
+						"course name",
+						"course description",
+						"other details"
+					],
+					"people addresses": [
+						"person address id",
+						"person id",
+						"address id",
+						"date from",
+						"date to"
+					],
+					"student course registrations": [
+						"student id",
+						"course id",
+						"registration date"
+					],
+					"student course attendance": [
+						"student id",
+						"course id",
+						"date of attendance"
+					],
+					"candidates": [
+						"candidate id",
+						"candidate details"
+					],
+					"candidate assessments": [
+						"candidate id",
+						"qualification",
+						"assessment date",
+						"asessment outcome code"
+					]
+				}
+			],
+			[
+				"answerable",
+				"How many stations are there in 'LA' ? List the name of them .",
+				{
+					"station": [
+						"id",
+						"name",
+						"latitude",
+						"longitude",
+						"dock count",
+						"city",
+						"installation date"
+					],
+					"status": [
+						"station id",
+						"bikes available",
+						"docks available",
+						"time"
+					],
+					"trip": [
+						"id",
+						"duration",
+						"start date",
+						"start station name",
+						"start station id",
+						"end date",
+						"end station name",
+						"end station id",
+						"bike id",
+						"subscription type",
+						"zip code"
+					],
+					"weather": [
+						"date",
+						"max temperature f",
+						"mean temperature f",
+						"min temperature f",
+						"max dew point f",
+						"mean dew point f",
+						"min dew point f",
+						"max humidity",
+						"mean humidity",
+						"min humidity",
+						"max sea level pressure inches",
+						"mean sea level pressure inches",
+						"min sea level pressure inches",
+						"max visibility miles",
+						"mean visibility miles",
+						"min visibility miles",
+						"max wind speed mph",
+						"mean wind speed mph",
+						"max gust speed mph",
+						"precipitation inches",
+						"cloud cover",
+						"events",
+						"wind dir degrees",
+						"zip code"
+					]
+				}
+			],
+			[
+				"answerable",
+				"Which publisher published the most book ? List the title of these book .",
+				{
+					"publication": [
+						"publication id",
+						"book id",
+						"publisher",
+						"publication date",
+						"price"
+					],
+					"book": [
+						"book id",
+						"title",
+						"issues",
+						"writer"
+					]
+				}
+			],
+			[
+				"answerable",
+				"Who acts the most character ? Return the name of the actor .",
+				{
+					"musical": [
+						"musical id",
+						"name",
+						"year",
+						"award",
+						"category",
+						"nominee",
+						"result"
+					],
+					"actor": [
+						"actor id",
+						"name",
+						"musical id",
+						"character",
+						"duration",
+						"age"
+					]
+				}
+			],
+			[
+				"answerable",
+				"List the name and email of the user who has the most follower .",
+				{
+					"follows": [
+						"user id",
+						"follower id"
+					],
+					"tweets": [
+						"id",
+						"user id",
+						"text",
+						"create date"
+					],
+					"user profiles": [
+						"uid",
+						"name",
+						"email",
+						"partition id",
+						"followers"
+					]
+				}
+			],
+			[
+				"answerable",
+				"Which catalog contents is the most expensive ? Find the height and width of is .",
+				{
+					"attribute definitions": [
+						"attribute id",
+						"attribute name",
+						"attribute data type"
+					],
+					"catalogs": [
+						"catalog id",
+						"catalog name",
+						"catalog publisher",
+						"date of publication",
+						"date of latest revision"
+					],
+					"catalog structure": [
+						"catalog level number",
+						"catalog id",
+						"catalog level name"
+					],
+					"catalog contents": [
+						"catalog entry id",
+						"catalog level number",
+						"parent entry id",
+						"previous entry id",
+						"next entry id",
+						"catalog entry name",
+						"product stock number",
+						"price in dollars",
+						"price in euros",
+						"price in pounds",
+						"capacity",
+						"length",
+						"height",
+						"width"
+					],
+					"catalog contents additional attributes": [
+						"catalog entry id",
+						"catalog level number",
+						"attribute id",
+						"attribute value"
+					]
+				}
+			],
+			[
+				"answerable",
+				"Tell me the id, arrival date and distance of the cheapest flight to go to 'beijing' .",
+				{
+					"flight": [
+						"flight number",
+						"origin",
+						"destination",
+						"distance",
+						"departure date",
+						"arrival date",
+						"price",
+						"airline id"
+					],
+					"aircraft": [
+						"airline id",
+						"name",
+						"distance"
+					],
+					"employee": [
+						"employee id",
+						"name",
+						"salary"
+					],
+					"certificate": [
+						"employee id",
+						"airline id"
+					]
+				}
+			],
+			[
+				"answerable",
+				"Return all the information of the students who have allergy",
+				{
+					"allergy type": [
+						"allergy name",
+						"allergy type"
+					],
+					"has allergy": [
+						"stuid",
+						"allergy"
+					],
+					"student": [
+						"stuid",
+						"last name",
+						"first name",
+						"age",
+						"sex",
+						"major",
+						"advisor",
+						"city code"
+					]
+				}
+			],
+			[
+				"answerable",
+				"Tell me the top 10 by number of the invoices . Return the number of the invoices",
+				{
+					"sqlite sequence": [
+						"name",
+						"seq"
+					],
+					"artists": [
+						"id",
+						"name"
+					],
+					"albums": [
+						"id",
+						"title",
+						"artist id"
+					],
+					"employees": [
+						"id",
+						"last name",
+						"first name",
+						"title",
+						"reports to",
+						"birth date",
+						"hire date",
+						"address",
+						"city",
+						"state",
+						"country",
+						"postal code",
+						"phone",
+						"fax",
+						"email"
+					],
+					"customers": [
+						"id",
+						"first name",
+						"last name",
+						"company",
+						"address",
+						"city",
+						"state",
+						"country",
+						"postal code",
+						"phone",
+						"fax",
+						"email",
+						"support rep id"
+					],
+					"genres": [
+						"id",
+						"name"
+					],
+					"invoices": [
+						"id",
+						"customer id",
+						"invoice date",
+						"billing address",
+						"billing city",
+						"billing state",
+						"billing country",
+						"billing postal code",
+						"total"
+					],
+					"media types": [
+						"id",
+						"name"
+					],
+					"tracks": [
+						"id",
+						"name",
+						"album id",
+						"media type id",
+						"genre id",
+						"composer",
+						"milliseconds",
+						"bytes",
+						"unit price"
+					],
+					"invoice lines": [
+						"id",
+						"invoice id",
+						"track id",
+						"unit price",
+						"quantity"
+					],
+					"playlists": [
+						"id",
+						"name"
+					],
+					"playlist tracks": [
+						"playlist id",
+						"track id"
+					]
+				}
+			],
+			[
+				"answerable",
+				"Who have the most journals ? List the name, age ?",
+				{
+					"journal": [
+						"journal id",
+						"date",
+						"theme",
+						"sales"
+					],
+					"editor": [
+						"editor id",
+						"name",
+						"age"
+					],
+					"journal committee": [
+						"editor id",
+						"journal id",
+						"work type"
+					]
+				}
+			],
+			[
+				"answerable",
+				"Tell me the maximum and minimum number of the seating for all the tracks . ",
+				{
+					"race": [
+						"race id",
+						"name",
+						"class",
+						"date",
+						"track id"
+					],
+					"track": [
+						"track id",
+						"name",
+						"location",
+						"seating",
+						"year opened"
+					]
+				}
+			],
+			[
+				"answerable",
+				"Under age 25, who have the longest happy hour ? Tell me the name, age and address .",
+				{
+					"shop": [
+						"shop id",
+						"address",
+						"num of staff",
+						"score",
+						"open year"
+					],
+					"member": [
+						"member id",
+						"name",
+						"membership card",
+						"age",
+						"time of purchase",
+						"level of membership",
+						"address"
+					],
+					"happy hour": [
+						"hh id",
+						"shop id",
+						"month",
+						"num of shaff in charge"
+					],
+					"happy hour member": [
+						"hh id",
+						"member id",
+						"total amount"
+					]
+				}
+			],
+			[
+				"answerable",
+				"The first name and last name of the persons who live in 'shanghai'",
+				{
+					"album": [
+						"album id",
+						"title",
+						"artist id"
+					],
+					"artist": [
+						"artist id",
+						"name"
+					],
+					"customer": [
+						"customer id",
+						"first name",
+						"last name",
+						"company",
+						"address",
+						"city",
+						"state",
+						"country",
+						"postal code",
+						"phone",
+						"fax",
+						"email",
+						"support representative id"
+					],
+					"employee": [
+						"employee id",
+						"last name",
+						"first name",
+						"title",
+						"reports to",
+						"birth date",
+						"hire date",
+						"address",
+						"city",
+						"state",
+						"country",
+						"postal code",
+						"phone",
+						"fax",
+						"email"
+					],
+					"genre": [
+						"genre id",
+						"name"
+					],
+					"invoice": [
+						"invoice id",
+						"customer id",
+						"invoice date",
+						"billing address",
+						"billing city",
+						"billing state",
+						"billing country",
+						"billing postal code",
+						"total"
+					],
+					"invoice line": [
+						"invoice line id",
+						"invoice id",
+						"track id",
+						"unit price",
+						"quantity"
+					],
+					"media type": [
+						"media type id",
+						"name"
+					],
+					"playlist": [
+						"play list id",
+						"name"
+					],
+					"playlist track": [
+						"play list id",
+						"track id"
+					],
+					"track": [
+						"track id",
+						"name",
+						"album id",
+						"media type id",
+						"genre id",
+						"composer",
+						"milliseconds",
+						"bytes",
+						"unit price"
+					]
+				}
+			],
+			[
+				"answerable",
+				"Find the phone numbers of customers using the least type of available policies .",
+				{
+					"customers": [
+						"customer id",
+						"customer name"
+					],
+					"services": [
+						"service id",
+						"service name"
+					],
+					"available policies": [
+						"policy id",
+						"policy type code",
+						"customer phone"
+					],
+					"customers policies": [
+						"customer id",
+						"policy id",
+						"date opened",
+						"date closed"
+					],
+					"first notification of loss": [
+						"fnol id",
+						"customer id",
+						"policy id",
+						"service id"
+					],
+					"claims": [
+						"claim id",
+						"fnol id",
+						"effective date"
+					],
+					"settlements": [
+						"settlement id",
+						"claim id",
+						"effective date",
+						"settlement amount"
+					]
+				}
+			],
+			[
+				"answerable",
+				"Which location has the least number of school .",
+				{
+					"university": [
+						"school id",
+						"school",
+						"location",
+						"founded",
+						"affiliation",
+						"enrollment",
+						"nickname",
+						"primary conference"
+					]
+				}
+			],
+			[
+				"answerable",
+				"Where do the highest mountain locate ? Show me the height, range and name of the mountain .",
+				{
+					"mountain": [
+						"id",
+						"name",
+						"height",
+						"prominence",
+						"range",
+						"country"
+					]
+				}
+			],
+			[
+				"answerable",
+				"List all channel names ordered by their share from big to small .",
+				{
+					"channel": [
+						"channel id",
+						"name",
+						"owner",
+						"share in percent",
+						"rating in percent"
+					]
+				}
+			],
+			[
+				"answerable",
+				"When is the earlist date of registration ? Tell me the id of the student who registerated .",
+				{
+					"students": [
+						"student id",
+						"date of registration",
+						"date of latest logon",
+						"login name",
+						"password",
+						"personal name",
+						"middle name",
+						"family name"
+					]
+				}
+			]
+		]
+	},
+	"0": {
+		"small talk": [
+			[
+				"small talk",
+				"Do you know who will win the selection of the US ?",
+				{
+					"state": [
+						"state name",
+						"population",
+						"area",
+						"country name",
+						"capital",
+						"density"
+					],
+					"city": [
+						"city name",
+						"population",
+						"country name",
+						"state name"
+					],
+					"border info": [
+						"state name",
+						"border"
+					],
+					"highlow": [
+						"state name",
+						"highest elevation",
+						"lowest point",
+						"highest point",
+						"lowest elevation"
+					],
+					"lake": [
+						"lake name",
+						"area",
+						"country name",
+						"state name"
+					],
+					"mountain": [
+						"mountain name",
+						"mountain altitude",
+						"country name",
+						"state name"
+					],
+					"river": [
+						"river name",
+						"length",
+						"country name",
+						"traverse"
+					]
+				}
+			],
+			[
+				"small talk",
+				"Which picture do you think is the most beautiful ?",
+				{
+					"geographic": [
+						"city name",
+						"county",
+						"region"
+					],
+					"restaurant": [
+						"id",
+						"name",
+						"food type",
+						"city name",
+						"rating"
+					],
+					"location": [
+						"restaurant id",
+						"house number",
+						"street name",
+						"city name"
+					]
+				}
+			],
+			[
+				"small talk",
+				"How are you ?",
+				{
+					"2-14921394-2.html.csv": [
+						"year",
+						"class",
+						"team",
+						"points",
+						"wins"
+					]
+				}
+			],
+			[
+				"samll talk",
+				"I am wondering that if it is possible for you to do me a favor ?",
+				{
+					"artist": [
+						"artist id",
+						"artist",
+						"age",
+						"famous title",
+						"famous release date"
+					],
+					"volume": [
+						"volume id",
+						"volume issue",
+						"issue date",
+						"weeks on top",
+						"song",
+						"artist id"
+					],
+					"music festival": [
+						"id",
+						"music festival",
+						"date of ceremony",
+						"category",
+						"volume",
+						"result"
+					]
+				}
+			],
+			[
+				"small talk",
+				"Who doesn't like the dogs ? They are so cute !",
+				{
+					"routes": [
+						"route id",
+						"destination airport id",
+						"destination airport",
+						"source airport id",
+						"source airport",
+						"airline id",
+						"airline",
+						"code share"
+					],
+					"airports": [
+						"airport id",
+						"name",
+						"city",
+						"country",
+						"x",
+						"y",
+						"elevation",
+						"iata",
+						"icao"
+					],
+					"airlines": [
+						"airline id",
+						"name",
+						"iata",
+						"icao",
+						"call sign",
+						"country",
+						"active"
+					]
+				}
+			],
+			[
+				"small talk",
+				"What's your advantages ?",
+				{
+					"breeds": [
+						"breed code",
+						"breed name"
+					],
+					"charges": [
+						"charge id",
+						"charge type",
+						"charge amount"
+					],
+					"sizes": [
+						"size code",
+						"size description"
+					],
+					"treatment types": [
+						"treatment type code",
+						"treatment type description"
+					],
+					"owners": [
+						"owner id",
+						"first name",
+						"last name",
+						"street",
+						"city",
+						"state",
+						"zip code",
+						"email address",
+						"home phone",
+						"cell number"
+					],
+					"dogs": [
+						"dog id",
+						"owner id",
+						"abandoned yes or no",
+						"breed code",
+						"size code",
+						"name",
+						"age",
+						"date of birth",
+						"gender",
+						"weight",
+						"date arrived",
+						"date adopted",
+						"date departed",
+						"first name",
+						"last name"
+					],
+					"professionals": [
+						"professional id",
+						"role code",
+						"first name",
+						"street",
+						"city",
+						"state",
+						"zip code",
+						"last name",
+						"email address",
+						"home phone",
+						"cell number"
+					],
+					"treatments": [
+						"treatment id",
+						"dog id",
+						"professional id",
+						"treatment type code",
+						"date of treatment",
+						"cost of treatment"
+					]
+				}
+			],
+			[
+				"small talk",
+				"Describe the best of yours .",
+				{
+					"author": [
+						"author id",
+						"author name"
+					],
+					"cite": [
+						"citing paper id",
+						"cited paper id"
+					],
+					"dataset": [
+						"dataset id",
+						"dataset name"
+					],
+					"journal": [
+						"journal id",
+						"journal name"
+					],
+					"key phrase": [
+						"key phrase id",
+						"key phrase name"
+					],
+					"paper": [
+						"paper id",
+						"title",
+						"venue id",
+						"year",
+						"number of citing",
+						"number cited by",
+						"journal id"
+					],
+					"paper dataset": [
+						"paper id",
+						"dataset id"
+					],
+					"paper key phrase": [
+						"paper id",
+						"key phrase id"
+					],
+					"venue": [
+						"venue id",
+						"venue name"
+					],
+					"writes": [
+						"paper id",
+						"author id"
+					]
+				}
+			],
+			[
+				"samll talk",
+				"Pardon ?",
+				{
+					"classroom": [
+						"building",
+						"room number",
+						"capacity"
+					],
+					"department": [
+						"department name",
+						"building",
+						"budget"
+					],
+					"course": [
+						"course id",
+						"title",
+						"department name",
+						"credits"
+					],
+					"instructor": [
+						"id",
+						"name",
+						"department name",
+						"salary"
+					],
+					"section": [
+						"course id",
+						"section id",
+						"semester",
+						"year",
+						"building",
+						"room number",
+						"time slot id"
+					],
+					"teaches": [
+						"id",
+						"course id",
+						"section id",
+						"semester",
+						"year"
+					],
+					"student": [
+						"id",
+						"name",
+						"department name",
+						"total credits"
+					],
+					"takes classes": [
+						"id",
+						"course id",
+						"section id",
+						"semester",
+						"year",
+						"grade"
+					],
+					"advisor": [
+						"student id",
+						"instructor id"
+					],
+					"time slot": [
+						"time slot id",
+						"day",
+						"start hour",
+						"start minute",
+						"end hour",
+						"end minute"
+					],
+					"prerequisite": [
+						"course id",
+						"prerequisite id"
+					]
+				}
+			],
+			[
+				"small talk",
+				"Can I play with my friends after I finish my homework ?",
+				{
+					"roles": [
+						"role code",
+						"role description"
+					],
+					"users": [
+						"user id",
+						"role code",
+						"user name",
+						"user login",
+						"password"
+					],
+					"document structures": [
+						"document structure code",
+						"parent document structure code",
+						"document structure description"
+					],
+					"functional areas": [
+						"functional area code",
+						"parent functional area code",
+						"functional area description"
+					],
+					"images": [
+						"image id",
+						"image alt text",
+						"image name",
+						"image url"
+					],
+					"documents": [
+						"document code",
+						"document structure code",
+						"document type code",
+						"access count",
+						"document name"
+					],
+					"document functional areas": [
+						"document code",
+						"functional area code"
+					],
+					"document sections": [
+						"section id",
+						"document code",
+						"section sequence",
+						"section code",
+						"section title"
+					],
+					"document sections images": [
+						"section id",
+						"image id"
+					]
+				}
+			],
+			[
+				"small talk",
+				"Do you want to eat sushi for dinner ?",
+				{
+					"actor": [
+						"aid",
+						"gender",
+						"name",
+						"nationality",
+						"birth city",
+						"birth year",
+						"first name",
+						"last name"
+					],
+					"copyright": [
+						"id",
+						"msid",
+						"cid"
+					],
+					"cast": [
+						"id",
+						"msid",
+						"aid",
+						"role"
+					],
+					"genre": [
+						"gid",
+						"genre"
+					],
+					"classification": [
+						"id",
+						"msid",
+						"gid"
+					],
+					"company": [
+						"id",
+						"name",
+						"country code",
+						"first name",
+						"last name"
+					],
+					"director": [
+						"did",
+						"gender",
+						"name",
+						"nationality",
+						"birth city",
+						"birth year",
+						"first name",
+						"last name"
+					],
+					"producer": [
+						"pid",
+						"gender",
+						"name",
+						"nationality",
+						"birth city",
+						"birth year",
+						"first name",
+						"last name"
+					],
+					"directed by": [
+						"id",
+						"msid",
+						"did"
+					],
+					"keyword": [
+						"id",
+						"keyword"
+					],
+					"made by": [
+						"id",
+						"msid",
+						"pid"
+					],
+					"movie": [
+						"mid",
+						"title",
+						"release year",
+						"title aka",
+						"budget"
+					],
+					"tags": [
+						"id",
+						"msid",
+						"kid"
+					],
+					"tv series": [
+						"sid",
+						"title",
+						"release year",
+						"num of seasons",
+						"num of episodes",
+						"title aka",
+						"budget"
+					],
+					"writer": [
+						"wid",
+						"gender",
+						"name",
+						"nationality",
+						"num of episodes",
+						"birth city",
+						"birth year",
+						"first name",
+						"last name"
+					],
+					"written by": [
+						"id",
+						"msid",
+						"wid"
+					]
+				}
+			],
+			[
+				"small talk",
+				"Who do you think have the most important influence on your life ?",
+				{
+					"author": [
+						"author id",
+						"author name"
+					],
+					"cite": [
+						"citing paper id",
+						"cited paper id"
+					],
+					"dataset": [
+						"dataset id",
+						"dataset name"
+					],
+					"journal": [
+						"journal id",
+						"journal name"
+					],
+					"key phrase": [
+						"key phrase id",
+						"key phrase name"
+					],
+					"paper": [
+						"paper id",
+						"title",
+						"venue id",
+						"year",
+						"number of citing",
+						"number cited by",
+						"journal id"
+					],
+					"paper dataset": [
+						"paper id",
+						"dataset id"
+					],
+					"paper key phrase": [
+						"paper id",
+						"key phrase id"
+					],
+					"venue": [
+						"venue id",
+						"venue name"
+					],
+					"writes": [
+						"paper id",
+						"author id"
+					]
+				}
+			],
+			[
+				"small talk",
+				"Which one do you like the most ? The left one or the right one ?",
+				{
+					"6675": [
+						"name",
+						"class",
+						"notability",
+						"first name",
+						"last name"
+					]
+				}
+			],
+			[
+				"small talk",
+				"How's the weather today ?",
+				{
+					"musical": [
+						"musical id",
+						"name",
+						"year",
+						"award",
+						"category",
+						"nominee",
+						"result",
+						"first name",
+						"last name"
+					]
+				}
+			],
+			[
+				"small talk",
+				"Do you know the answer to this question ? Can you tell me ?",
+				{
+					"railway": [
+						"railway id",
+						"railway",
+						"builder",
+						"built",
+						"wheels",
+						"location",
+						"objectnumber"
+					],
+					"train": [
+						"train id",
+						"train num",
+						"name",
+						"from",
+						"arrival",
+						"railway id",
+						"first name",
+						"last name"
+					],
+					"manager": [
+						"manager id",
+						"name",
+						"country",
+						"working year starts",
+						"age",
+						"level",
+						"first name",
+						"last name"
+					],
+					"railway manage": [
+						"railway id",
+						"manager id",
+						"from year"
+					]
+				}
+			],
+			[
+				"small talk",
+				"How many friends do you have ? ",
+				{
+					"addresses": [
+						"address id",
+						"address content",
+						"city",
+						"zip postcode",
+						"state province county",
+						"country",
+						"other address details"
+					]
+				}
+			],
+			[
+				"small talk",
+				"Which city is the best in your country ? Tell me why .",
+				{
+					"reference document types": [
+						"document type code",
+						"document type description"
+					],
+					"roles": [
+						"role code",
+						"role description"
+					],
+					"addresses": [
+						"address id",
+						"address details"
+					],
+					"reference document status": [
+						"document status code",
+						"document status description"
+					],
+					"reference shipping agents": [
+						"shipping agent code",
+						"shipping agent name",
+						"shipping agent description"
+					],
+					"documents": [
+						"document id",
+						"document status code",
+						"document type code",
+						"shipping agent code",
+						"receipt date",
+						"receipt number",
+						"other details"
+					],
+					"employees": [
+						"employee id",
+						"role code",
+						"employee name",
+						"other details"
+					],
+					"document drafts": [
+						"document id",
+						"draft number",
+						"draft details"
+					],
+					"draft copies": [
+						"document id",
+						"draft number",
+						"copy number"
+					],
+					"circulation history": [
+						"document id",
+						"draft number",
+						"copy number",
+						"employee id"
+					],
+					"documents mailed": [
+						"document id",
+						"mailed to address id",
+						"mailing date"
+					]
+				}
+			],
+			[
+				"small talk",
+				"Which type of department do you like the best ?",
+				{
+					"department": [
+						"department id",
+						"name",
+						"creation",
+						"ranking",
+						"budget in billions",
+						"num employees"
+					],
+					"head": [
+						"head id",
+						"name",
+						"born state",
+						"age"
+					],
+					"management": [
+						"department id",
+						"head id",
+						"temporary acting"
+					]
+				}
+			],
+			[
+				"small talk",
+				"Who is the best singer in your opinion ?",
+				{
+					"albums": [
+						"id",
+						"title",
+						"artist id"
+					]
+				}
+			],
+			[
+				"small talk",
+				"How many foreigners are there in your university ?",
+				{
+					"program": [
+						"program id",
+						"name",
+						"origin",
+						"launch",
+						"owner",
+						"first name",
+						"last name"
+					],
+					"channel": [
+						"channel id",
+						"name",
+						"owner",
+						"share in percent",
+						"rating in percent",
+						"first name",
+						"last name"
+					],
+					"broadcast": [
+						"channel id",
+						"program id",
+						"time of day"
+					],
+					"broadcast share": [
+						"channel id",
+						"program id",
+						"date",
+						"share in percent"
+					]
+				}
+			],
+			[
+				"small talk",
+				"Tell me who is the most famous artist in your country .",
+				{
+					"artist": [
+						"artist id",
+						"artist",
+						"age",
+						"famous title",
+						"famous release date"
+					]
+				}
+			]
+		],
+	"ambiguous": [
+			[
+				"ambiguous",
+				"Who is the best head of all the deparment ?",
+				{
+					"department": [
+						"department id",
+						"name",
+						"creation",
+						"ranking",
+						"budget in billions",
+						"num employees"
+					],
+					"head": [
+						"head id",
+						"name",
+						"born state",
+						"age"
+					],
+					"management": [
+						"department id",
+						"head id",
+						"temporary acting"
+					]
+				}
+			],
+			[
+				"ambiguous",
+				"What is the first name of user id '9527' ?",
+				{
+					"item": [
+						"item id",
+						"title"
+					],
+					"review": [
+						"a id",
+						"user id",
+						"item id",
+						"rating",
+						"rank"
+					],
+					"useracct": [
+						"user id",
+						"name"
+					],
+					"trust": [
+						"source user id",
+						"target user id",
+						"trust"
+					]
+				}
+			],
+			[
+				"ambiguous",
+				"Tell me the best location of a shop .",
+				{
+					"employee": [
+						"employee id",
+						"name",
+						"age",
+						"city"
+					],
+					"shop": [
+						"shop id",
+						"name",
+						"location",
+						"district",
+						"number products",
+						"manager name"
+					],
+					"hiring": [
+						"shop id",
+						"employee id",
+						"start from",
+						"is full time"
+					],
+					"evaluation": [
+						"employee id",
+						"year awarded",
+						"bonus"
+					]
+				}
+			],
+			[
+				"ambiguous",
+				"Which teacher is the best ? And which course is the best of the teacher ?",
+				{
+					"course": [
+						"course id",
+						"staring date",
+						"course"
+					],
+					"teacher": [
+						"teacher id",
+						"name",
+						"age",
+						"hometown"
+					],
+					"course arrange": [
+						"course id",
+						"teacher id",
+						"grade"
+					]
+				}
+			],
+			[
+				"ambiguous",
+				"Which author has the best paper",
+				{
+					"author": [
+						"author id",
+						"author name"
+					],
+					"cite": [
+						"citing paper id",
+						"cited paper id"
+					],
+					"dataset": [
+						"dataset id",
+						"dataset name"
+					],
+					"journal": [
+						"journal id",
+						"journal name"
+					],
+					"key phrase": [
+						"key phrase id",
+						"key phrase name"
+					],
+					"paper": [
+						"paper id",
+						"title",
+						"venue id",
+						"year",
+						"number of citing",
+						"number cited by",
+						"journal id"
+					],
+					"paper dataset": [
+						"paper id",
+						"dataset id"
+					],
+					"paper key phrase": [
+						"paper id",
+						"key phrase id"
+					],
+					"venue": [
+						"venue id",
+						"venue name"
+					],
+					"writes": [
+						"paper id",
+						"author id"
+					]
+				}
+			],
+			[
+				"ambiguous",
+				"Which is the best way to go to 'beijing'",
+				{
+					"flight": [
+						"flight number",
+						"origin",
+						"destination",
+						"distance",
+						"departure date",
+						"arrival date",
+						"price",
+						"airline id"
+					],
+					"aircraft": [
+						"airline id",
+						"name",
+						"distance"
+					],
+					"employee": [
+						"employee id",
+						"name",
+						"salary"
+					],
+					"certificate": [
+						"employee id",
+						"airline id"
+					]
+				}
+			],
+			[
+				"ambiguous",
+				"Which county do you think is the best to live ?",
+				{
+					"county": [
+						"county id",
+						"county name",
+						"population",
+						"zip code"
+					],
+					"party": [
+						"us senate",
+						"year",
+						"comptroller",
+						"party id",
+						"attorney general",
+						"governor",
+						"lieutenant governor"
+					],
+					"election": [
+						"election id",
+						"counties represented",
+						"district",
+						"delegate",
+						"party",
+						"first elected",
+						"committee"
+					]
+				}
+			],
+			[
+				"ambiguous",
+				"How many best movies do the director have ?",
+				{
+					"movie": [
+						"movie id",
+						"title",
+						"year",
+						"director"
+					],
+					"reviewer": [
+						"reviewer id",
+						"name"
+					],
+					"rating": [
+						"reviewer id",
+						"movie id",
+						"rating stars",
+						"rating date"
+					]
+				}
+			],
+			[
+				"ambiguous",
+				"What's the first name of the attended persons ?",
+				{
+					"5618": [
+						"name",
+						"attended",
+						"notability"
+					]
+				}
+			],
+			[
+				"ambiguous",
+				"Which room is the most comfortable room ?",
+				{
+					"rooms": [
+						"room id",
+						"room name",
+						"beds",
+						"bed type",
+						"max occupancy",
+						"base price",
+						"decor"
+					],
+					"reservations": [
+						"code",
+						"room",
+						"check in",
+						"check out",
+						"rate",
+						"last name",
+						"first name",
+						"adults",
+						"kids"
+					]
+				}
+			],
+			[
+				"ambiguous",
+				"What the name of the students who join the music club ?",
+				{
+					"student": [
+						"student id",
+						"last name",
+						"first name",
+						"age",
+						"sex",
+						"major",
+						"advisor",
+						"city code"
+					],
+					"club": [
+						"club id",
+						"club name",
+						"club description",
+						"club location"
+					],
+					"member of club": [
+						"student id",
+						"club id",
+						"position"
+					]
+				}
+			],
+			[
+				"ambiguous",
+				"Which eliminations take place in the morning ",
+				{
+					"wrestler": [
+						"wrestler id",
+						"name",
+						"reign",
+						"days held",
+						"location",
+						"event"
+					],
+					"elimination": [
+						"elimination id",
+						"wrestler id",
+						"team",
+						"eliminated by",
+						"elimination move",
+						"time"
+					]
+				}
+			],
+			[
+				"ambiguous",
+				"Which movies is scheduled early this month ?",
+				{
+					"film": [
+						"film id",
+						"rank in series",
+						"number in season",
+						"title",
+						"directed by",
+						"original air date",
+						"production code"
+					],
+					"cinema": [
+						"cinema id",
+						"name",
+						"openning year",
+						"capacity",
+						"location"
+					],
+					"schedule": [
+						"cinema id",
+						"film id",
+						"date",
+						"show times per day",
+						"price"
+					]
+				}
+			],
+			[
+				"ambiguous",
+				"which students have relatively high grade ? ",
+				{
+					"list": [
+						"name",
+						"grade",
+						"class room"
+					],
+					"teachers": [
+						"name",
+						"class room"
+					]
+				}
+			],
+			[
+				"ambiguous",
+				"Who reached this place early ?",
+				{
+					"12294": [
+						"place",
+						"athlete",
+						"nationality",
+						"time"
+					]
+				}
+			],
+			[
+				"ambiguous",
+				"Tell me the best restaurant nearby .",
+				{
+					"geographic": [
+						"city name",
+						"county",
+						"region"
+					],
+					"restaurant": [
+						"id",
+						"name",
+						"food type",
+						"city name",
+						"rating"
+					],
+					"location": [
+						"restaurant id",
+						"house number",
+						"street name",
+						"city name"
+					]
+				}
+			],
+			[
+				"ambiguous",
+				"who start to be as a technician early ?",
+				{
+					"repair": [
+						"repair id",
+						"name",
+						"launch date",
+						"notes"
+					],
+					"machine": [
+						"machine id",
+						"making year",
+						"class",
+						"team",
+						"machine series",
+						"value points",
+						"quality rank"
+					],
+					"technician": [
+						"technician id",
+						"name",
+						"team",
+						"starting year",
+						"age"
+					],
+					"repair assignment": [
+						"technician id",
+						"repair id",
+						"machine id"
+					]
+				}
+			],
+			[
+				"ambiguous",
+				"Who has the best reputation among these authors ? ",
+				{
+					"author": [
+						"author id",
+						"author name"
+					],
+					"cite": [
+						"citing paper id",
+						"cited paper id"
+					],
+					"dataset": [
+						"dataset id",
+						"dataset name"
+					],
+					"journal": [
+						"journal id",
+						"journal name"
+					],
+					"key phrase": [
+						"key phrase id",
+						"key phrase name"
+					],
+					"paper": [
+						"paper id",
+						"title",
+						"venue id",
+						"year",
+						"number of citing",
+						"number cited by",
+						"journal id"
+					],
+					"paper dataset": [
+						"paper id",
+						"dataset id"
+					],
+					"paper key phrase": [
+						"paper id",
+						"key phrase id"
+					],
+					"venue": [
+						"venue id",
+						"venue name"
+					],
+					"writes": [
+						"paper id",
+						"author id"
+					]
+				}
+			],
+			[
+				"ambiguous",
+				"where does most river locate ? ",
+				{
+					"state": [
+						"state name",
+						"population",
+						"area",
+						"country name",
+						"capital",
+						"density"
+					],
+					"city": [
+						"city name",
+						"population",
+						"country name",
+						"state name"
+					],
+					"border info": [
+						"state name",
+						"border"
+					],
+					"highlow": [
+						"state name",
+						"highest elevation",
+						"lowest point",
+						"highest point",
+						"lowest elevation"
+					],
+					"lake": [
+						"lake name",
+						"area",
+						"country name",
+						"state name"
+					],
+					"mountain": [
+						"mountain name",
+						"mountain altitude",
+						"country name",
+						"state name"
+					],
+					"river": [
+						"river name",
+						"length",
+						"country name",
+						"traverse"
+					]
+				}
+			],
+			[
+				"ambiguous",
+				"Which conferences enjoy good reputation ?",
+				{
+					"author": [
+						"aid",
+						"homepage",
+						"name",
+						"oid"
+					],
+					"conference": [
+						"cid",
+						"homepage",
+						"name"
+					],
+					"domain": [
+						"did",
+						"name"
+					],
+					"domain author": [
+						"aid",
+						"did"
+					],
+					"domain conference": [
+						"cid",
+						"did"
+					],
+					"journal": [
+						"homepage",
+						"jid",
+						"name",
+						"first name",
+						"last name"
+					],
+					"domain journal": [
+						"did",
+						"jid"
+					],
+					"keyword": [
+						"keyword",
+						"kid"
+					],
+					"domain keyword": [
+						"did",
+						"kid"
+					],
+					"publication": [
+						"abstract",
+						"cid",
+						"citation num",
+						"jid",
+						"pid",
+						"reference num",
+						"title",
+						"year"
+					],
+					"domain publication": [
+						"did",
+						"pid"
+					],
+					"organization": [
+						"continent",
+						"homepage",
+						"name",
+						"oid"
+					],
+					"publication keyword": [
+						"pid",
+						"kid"
+					],
+					"writes": [
+						"aid",
+						"pid"
+					],
+					"cite": [
+						"cited",
+						"citing"
+					]
+				}
+			]
+		],
+	"lack data": [
+			[
+				"lack data",
+				"Which head is the oldest among all of them",
+				{
+					"department": [
+						"department id",
+						"name",
+						"creation",
+						"ranking",
+						"budget in billions",
+						"num employees"
+					],
+					"head": [
+						"born state",
+						"name",
+						"head id"
+					],
+					"management": [
+						"department id",
+						"head id",
+						"temporary acting"
+					]
+				}
+			],
+			[
+				"lack data",
+				"When did the player get his highest points ? ",
+				{
+					"club": [
+						"region",
+						"club id",
+						"start year"
+					],
+					"club rank": [
+						"rank",
+						"club id",
+						"gold",
+						"silver",
+						"bronze",
+						"total"
+					],
+					"player": [
+						"player id",
+						"name",
+						"position",
+						"club id",
+						"apps",
+						"tries",
+						"goals",
+						"points"
+					],
+					"competition": [
+						"competition id",
+						"year",
+						"competition type",
+						"country"
+					],
+					"competition result": [
+						"competition id",
+						"club id 1",
+						"club id 2",
+						"score"
+					]
+				}
+			],
+			[
+				"lack data",
+				"which team win the most games ?",
+				{
+					"basketball match": [
+						"team id",
+						"school id",
+						"team name",
+						"acc regular season",
+						"acc percent",
+						"acc home",
+						"acc road",
+						"all games",
+						"all games percent",
+						"all home",
+						"all road",
+						"all neutral"
+					],
+					"university": [
+						"school",
+						"nickname",
+						"school id",
+						"enrollment",
+						"primary conference",
+						"location"
+					]
+				}
+			],
+			[
+				"lack data",
+				"For each player, what are their name, season, and country that they belong to?",
+				{
+					"country": [
+						"country id",
+						"country name",
+						"capital",
+						"official native language"
+					],
+					"team": [
+						"team id",
+						"name"
+					],
+					"match season": [
+						"position",
+						"draft class",
+						"draft pick number",
+						"college",
+						"player",
+						"season",
+						"team"
+					],
+					"player": [
+						"player id",
+						"player",
+						"years played",
+						"total wl",
+						"singles wl",
+						"doubles wl",
+						"team"
+					]
+				}
+			],
+			[
+				"lack data",
+				"Which channel has the most audience ? ",
+				{
+					"tv channel": [
+						"id",
+						"series name",
+						"country",
+						"language",
+						"content",
+						"pixel aspect ratio par",
+						"hight definition tv",
+						"pay per view ppv",
+						"package option"
+					],
+					"tv series": [
+						"id",
+						"episode",
+						"air date",
+						"rating",
+						"share",
+						"18 49 rating share",
+						"viewers m",
+						"weekly rank",
+						"channel"
+					],
+					"cartoon": [
+						"id",
+						"title",
+						"directed by",
+						"written by",
+						"original air date",
+						"production code",
+						"channel"
+					]
+				}
+			],
+			[
+				"lack data",
+				"Where does the manufacturer who has the most products locate ?",
+				{
+					"manufacturers": [
+						"code",
+						"name",
+						"headquarter",
+						"founder",
+						"revenue"
+					],
+					"products": [
+						"code",
+						"name",
+						"price",
+						"manufacturer"
+					]
+				}
+			],
+			[
+				"lack data",
+				"How much money do these branches earn?",
+				{
+					"member": [
+						"member id",
+						"card number",
+						"name",
+						"hometown",
+						"level"
+					],
+					"branch": [
+						"branch id",
+						"name",
+						"open year",
+						"address road",
+						"city",
+						"membership amount"
+					],
+					"membership register branch": [
+						"member id",
+						"branch id",
+						"register year"
+					],
+					"purchase": [
+						"member id",
+						"branch id",
+						"year",
+						"total pounds"
+					]
+				}
+			],
+			[
+				"lack data",
+				"When did 'John' win the his first gold medal ?",
+				{
+					"3084": [
+						"medal",
+						"name",
+						"sport",
+						"event"
+					]
+				}
+			],
+			[
+				"lack data",
+				"Where does the faculties who are in the 'cs' deparment come from?",
+				{
+					"student": [
+						"student id",
+						"last name",
+						"first name",
+						"age",
+						"sex",
+						"major",
+						"advisor",
+						"city code"
+					],
+					"faculty": [
+						"faculty id",
+						"last name",
+						"first name",
+						"rank",
+						"sex",
+						"phone",
+						"room",
+						"building"
+					],
+					"department": [
+						"department number",
+						"division",
+						"department name",
+						"room",
+						"building",
+						"department phone"
+					],
+					"member of": [
+						"faculty id",
+						"department number",
+						"appt type"
+					],
+					"course": [
+						"course id",
+						"course name",
+						"credits",
+						"instructor",
+						"days",
+						"hours",
+						"department number"
+					],
+					"minor in": [
+						"student id",
+						"department number"
+					],
+					"enrolled in": [
+						"student id",
+						"course id",
+						"grade"
+					],
+					"grade conversion": [
+						"letter grade",
+						"grade point"
+					]
+				}
+			],
+			[
+				"lack data",
+				"What are the ages of players who have the best dribbling?",
+				{
+					"player attributes": [
+						"id",
+						"player fifa api id",
+						"player api id",
+						"date",
+						"overall rating",
+						"potential",
+						"preferred foot",
+						"attacking work rate",
+						"defensive work rate",
+						"crossing",
+						"finishing",
+						"heading accuracy",
+						"short passing",
+						"volleys",
+						"dribbling",
+						"curve",
+						"free kick accuracy",
+						"long passing",
+						"ball control",
+						"acceleration",
+						"sprint speed",
+						"agility",
+						"reactions",
+						"balance",
+						"shot power",
+						"jumping",
+						"stamina",
+						"strength",
+						"long shots",
+						"aggression",
+						"interceptions",
+						"positioning",
+						"vision",
+						"penalties",
+						"marking",
+						"standing tackle",
+						"sliding tackle",
+						"gk diving",
+						"gk handling",
+						"gk kicking",
+						"gk positioning",
+						"gk reflexes"
+					],
+					"sqlite sequence": [
+						"name",
+						"seq"
+					],
+					"player": [
+						"id",
+						"player api id",
+						"player name",
+						"player fifa api id",
+						"birthday",
+						"height",
+						"weight"
+					],
+					"league": [
+						"id",
+						"country id",
+						"name"
+					],
+					"country": [
+						"id",
+						"name"
+					],
+					"team": [
+						"id",
+						"team api id",
+						"team fifa api id",
+						"team long name",
+						"team short name"
+					],
+					"team attributes": [
+						"id",
+						"team fifa api id",
+						"team api id",
+						"date",
+						"buildup play speed",
+						"buildup play speed class",
+						"buildup play dribbling",
+						"buildup play dribbling class",
+						"buildup play passing",
+						"buildup play passing class",
+						"buildup play positioning class",
+						"chance creation passing",
+						"chance creation passing class",
+						"chance creation crossing",
+						"chance creation crossing class",
+						"chance creation shooting",
+						"chance creation shooting class",
+						"chance creation positioning class",
+						"defence pressure",
+						"defence pressure class",
+						"defence aggression",
+						"defence aggression class",
+						"defence team width",
+						"defence team width class",
+						"defence defender line class"
+					]
+				}
+			],
+			[
+				"lack data",
+				"Show the school name and driver sex for all school buses.",
+				{
+					"driver": [
+						"driver id",
+						"name",
+						"party",
+						"home city",
+						"age"
+					],
+					"school": [
+						"school id",
+						"grade",
+						"school",
+						"location",
+						"type"
+					],
+					"school bus": [
+						"school id",
+						"driver id",
+						"years working",
+						"if full time"
+					]
+				}
+			],
+			[
+				"lack data",
+				"What's the ticket price of the flight from 'shanghai' to 'beijing'?",
+				{
+					"airport": [
+						"id",
+						"city",
+						"country",
+						"iata",
+						"icao",
+						"name"
+					],
+					"operate company": [
+						"id",
+						"name",
+						"type",
+						"principal activities",
+						"incorporated in",
+						"group equity shareholding"
+					],
+					"flight": [
+						"id",
+						"vehicle flight number",
+						"date",
+						"pilot",
+						"velocity",
+						"altitude",
+						"airport id",
+						"company id"
+					]
+				}
+			],
+			[
+				"lack data",
+				"In which month do all these games end",
+				{
+					"2-14323142-6.html.csv": [
+						"game",
+						"february",
+						"opponent",
+						"score",
+						"record",
+						"points"
+					]
+				}
+			],
+			[
+				"lack data",
+				"What is the average base price of different bed type? List bed type and average base price.",
+				{
+					"rooms": [
+						"room id",
+						"room name",
+						"beds",
+						"bed type",
+						"max occupancy",
+						"decor"
+					],
+					"reservations": [
+						"code",
+						"room",
+						"check in",
+						"check out",
+						"rate",
+						"last name",
+						"first name",
+						"adults",
+						"kids"
+					]
+				}
+			],
+			[
+				"lack data",
+				"List the names of wrestlers that have not been eliminated.",
+				{
+					"wrestler": [
+						"wrestler id",
+						"reign",
+						"days held",
+						"location",
+						"event"
+					],
+					"elimination": [
+						"elimination id",
+						"wrestler id",
+						"team",
+						"eliminated by",
+						"elimination move",
+						"time"
+					]
+				}
+			],
+			[
+				"lack data",
+				"What is the born state of the poker player with the highest earnings?",
+				{
+					"poker player": [
+						"poker player id",
+						"people id",
+						"final table made",
+						"best finish",
+						"money rank",
+						"earnings"
+					],
+					"people": [
+						"people id",
+						"nationality",
+						"name",
+						"birth date",
+						"height",
+						"first name",
+						"last name"
+					]
+				}
+			],
+			[
+				"lack data",
+				"What's the name of the photographer who takes the most photos ?",
+				{
+					"mountain": [
+						"id",
+						"name",
+						"height",
+						"prominence",
+						"range",
+						"country"
+					],
+					"camera lens": [
+						"id",
+						"brand",
+						"name",
+						"focal length mm",
+						"max aperture"
+					],
+					"photos": [
+						"id",
+						"camera lens id",
+						"mountain id",
+						"color",
+						"name"
+					]
+				}
+			],
+			[
+				"lack data",
+				"How many films are there in each category? List the genre name, genre id, genere type and the count.",
+				{
+					"actor": [
+						"actor id",
+						"first name",
+						"last name",
+						"last update"
+					],
+					"address": [
+						"address id",
+						"address",
+						"address2",
+						"district",
+						"city id",
+						"postal code",
+						"phone",
+						"last update"
+					],
+					"category": [
+						"category id",
+						"name",
+						"last update"
+					],
+					"city": [
+						"city id",
+						"city",
+						"country id",
+						"last update"
+					],
+					"country": [
+						"country id",
+						"country",
+						"last update"
+					],
+					"customer": [
+						"customer id",
+						"store id",
+						"first name",
+						"last name",
+						"email",
+						"address id",
+						"active",
+						"create date",
+						"last update"
+					],
+					"film": [
+						"film id",
+						"title",
+						"description",
+						"release year",
+						"language id",
+						"original language id",
+						"rental duration",
+						"rental rate",
+						"length",
+						"replacement cost",
+						"rating",
+						"special features",
+						"last update"
+					],
+					"film actor": [
+						"actor id",
+						"film id",
+						"last update"
+					],
+					"film category": [
+						"film id",
+						"category id",
+						"last update"
+					],
+					"film text": [
+						"film id",
+						"title",
+						"description"
+					],
+					"inventory": [
+						"inventory id",
+						"film id",
+						"store id",
+						"last update"
+					],
+					"language": [
+						"language id",
+						"name",
+						"last update"
+					],
+					"payment": [
+						"payment id",
+						"customer id",
+						"staff id",
+						"rental id",
+						"amount",
+						"payment date",
+						"last update"
+					],
+					"rental": [
+						"rental id",
+						"rental date",
+						"inventory id",
+						"customer id",
+						"return date",
+						"staff id",
+						"last update"
+					],
+					"staff": [
+						"staff id",
+						"first name",
+						"last name",
+						"address id",
+						"picture",
+						"email",
+						"store id",
+						"active",
+						"username",
+						"password",
+						"last update"
+					],
+					"store": [
+						"store id",
+						"manager staff id",
+						"address id",
+						"last update"
+					]
+				}
+			],
+			[
+				"lack data",
+				"Find the ages of all the customers whose loans more than 10000.",
+				{
+					"bank": [
+						"branch id",
+						"bname",
+						"no of customers",
+						"city",
+						"state"
+					],
+					"customer": [
+						"customer id",
+						"customer name",
+						"account type",
+						"account balance",
+						"number of loans",
+						"credit score",
+						"branch id",
+						"state"
+					],
+					"loan": [
+						"loan id",
+						"loan type",
+						"customer id",
+						"branch id",
+						"amount"
+					]
+				}
+			],
+			[
+				"lack data",
+				"How old are the students whose last name is 'John' ?",
+				{
+					"reference address types": [
+						"address type code",
+						"address type description"
+					],
+					"reference detention type": [
+						"detention type code",
+						"detention type description"
+					],
+					"reference incident type": [
+						"incident type code",
+						"incident type description"
+					],
+					"addresses": [
+						"address id",
+						"line 1",
+						"line 2",
+						"line 3",
+						"city",
+						"zip postcode",
+						"state province county",
+						"country",
+						"other address details"
+					],
+					"students": [
+						"student id",
+						"address id",
+						"first name",
+						"middle name",
+						"last name",
+						"cell mobile number",
+						"email address",
+						"date first rental",
+						"date left university",
+						"other student details"
+					],
+					"teachers": [
+						"teacher id",
+						"address id",
+						"first name",
+						"middle name",
+						"last name",
+						"gender",
+						"cell mobile number",
+						"email address",
+						"other details"
+					],
+					"assessment notes": [
+						"notes id",
+						"student id",
+						"teacher id",
+						"date of notes",
+						"text of notes",
+						"other details"
+					],
+					"behavior incident": [
+						"incident id",
+						"incident type code",
+						"student id",
+						"date incident start",
+						"date incident end",
+						"incident summary",
+						"recommendations",
+						"other details"
+					],
+					"detention": [
+						"detention id",
+						"detention type code",
+						"teacher id",
+						"datetime detention start",
+						"datetime detention end",
+						"detention summary",
+						"other details"
+					],
+					"student addresses": [
+						"student id",
+						"address id",
+						"date address from",
+						"date address to",
+						"monthly rental",
+						"other details"
+					],
+					"students in detention": [
+						"student id",
+						"detention id",
+						"incident id"
+					]
+				}
+			]
+		],
+	"unanswerable by sql": [
+			[
+				"unanswerable by sql",
+				"How many tables are there in the database?",
+				{
+					"customers": [
+						"customer id",
+						"customer first name",
+						"customer middle initial",
+						"customer last name",
+						"gender",
+						"email address",
+						"login name",
+						"login password",
+						"phone number",
+						"town city",
+						"state county province",
+						"country"
+					],
+					"orders": [
+						"order id",
+						"customer id",
+						"date order placed",
+						"order details"
+					],
+					"invoices": [
+						"invoice number",
+						"order id",
+						"invoice date"
+					],
+					"accounts": [
+						"account id",
+						"customer id",
+						"date account opened",
+						"account name",
+						"other account details"
+					],
+					"product categories": [
+						"production type code",
+						"product type description",
+						"vat rating"
+					],
+					"products": [
+						"product id",
+						"parent product id",
+						"production type code",
+						"unit price",
+						"product name",
+						"product color",
+						"product size"
+					],
+					"financial transactions": [
+						"transaction id",
+						"account id",
+						"invoice number",
+						"transaction type",
+						"transaction date",
+						"transaction amount",
+						"transaction comment",
+						"other transaction details"
+					],
+					"order items": [
+						"order item id",
+						"order id",
+						"product id",
+						"product quantity",
+						"other order item details"
+					],
+					"invoice line items": [
+						"order item id",
+						"invoice number",
+						"product id",
+						"product title",
+						"product quantity",
+						"product price",
+						"derived product cost",
+						"derived vat payable",
+						"derived total cost"
+					]
+				}
+			],
+			[
+				"unanswerable by sql",
+				"How many tables are there in the table 'state' ?",
+				{
+					"state": [
+						"state name",
+						"population",
+						"area",
+						"country name",
+						"capital",
+						"density"
+					],
+					"city": [
+						"city name",
+						"population",
+						"country name",
+						"state name"
+					],
+					"border info": [
+						"state name",
+						"border"
+					],
+					"highlow": [
+						"state name",
+						"highest elevation",
+						"lowest point",
+						"highest point",
+						"lowest elevation"
+					],
+					"lake": [
+						"lake name",
+						"area",
+						"country name",
+						"state name"
+					],
+					"mountain": [
+						"mountain name",
+						"mountain altitude",
+						"country name",
+						"state name"
+					],
+					"river": [
+						"river name",
+						"length",
+						"country name",
+						"traverse"
+					]
+				}
+			],
+			[
+				"unanswerable by sql",
+				"Which name of the phone is the longest ?",
+				{
+					"phone": [
+						"name",
+						"phone id",
+						"memory in g",
+						"carrier",
+						"price"
+					],
+					"market": [
+						"market id",
+						"district",
+						"num of employees",
+						"num of shops",
+						"ranking"
+					],
+					"phone market": [
+						"market id",
+						"phone id",
+						"num of stock"
+					]
+				}
+			],
+			[
+				"unanswerable by sql",
+				"How older are the station 1 than station 2 ?",
+				{
+					"company": [
+						"company id",
+						"rank",
+						"company",
+						"headquarters",
+						"main industry",
+						"sales billion",
+						"profits billion",
+						"assets billion",
+						"market value"
+					],
+					"gas station": [
+						"station id",
+						"open year",
+						"location",
+						"manager name",
+						"vice manager name",
+						"representative name"
+					],
+					"station company": [
+						"station id",
+						"company id",
+						"rank of the year"
+					]
+				}
+			],
+			[
+				"unanswerable by sql",
+				"one out of the 15 matches was a siliver medal match",
+				{
+					"2-17467244-2.html.csv": [
+						"match",
+						"date",
+						"location",
+						"lineup",
+						"result",
+						"competition"
+					]
+				}
+			],
+			[
+				"unanswerable by sql",
+				"Student 1's gap is 0.3 higher than student 2's .",
+				{
+					"class": [
+						"class code",
+						"course code",
+						"class section",
+						"class time",
+						"class room",
+						"professor employee number"
+					],
+					"course": [
+						"course code",
+						"department code",
+						"course description",
+						"course credit"
+					],
+					"department": [
+						"department code",
+						"department name",
+						"school code",
+						"employee number",
+						"department address",
+						"department extension"
+					],
+					"employee": [
+						"employee number",
+						"employee last name",
+						"employee first name",
+						"employee initial",
+						"employee job code",
+						"employee hire date",
+						"employee date of birth"
+					],
+					"enroll": [
+						"class code",
+						"student number",
+						"enroll grade"
+					],
+					"professor": [
+						"employee number",
+						"department code",
+						"professor office",
+						"professor extension",
+						"professor high degree"
+					],
+					"student": [
+						"student num",
+						"student last name",
+						"student first name",
+						"student init",
+						"student date of birth",
+						"student class hours took",
+						"student class",
+						"student gpa",
+						"student transfer",
+						"department code",
+						"student phone",
+						"professor number"
+					]
+				}
+			],
+			[
+				"unanswerable by sql",
+				"What is the data type of the trip id ?",
+				{
+					"station": [
+						"id",
+						"name",
+						"latitude",
+						"longitude",
+						"dock count",
+						"city",
+						"installation date"
+					],
+					"status": [
+						"station id",
+						"bikes available",
+						"docks available",
+						"time"
+					],
+					"trip": [
+						"id",
+						"duration",
+						"start date",
+						"start station name",
+						"start station id",
+						"end date",
+						"end station name",
+						"end station id",
+						"bike id",
+						"subscription type",
+						"zip code"
+					],
+					"weather": [
+						"date",
+						"max temperature f",
+						"mean temperature f",
+						"min temperature f",
+						"max dew point f",
+						"mean dew point f",
+						"min dew point f",
+						"max humidity",
+						"mean humidity",
+						"min humidity",
+						"max sea level pressure inches",
+						"mean sea level pressure inches",
+						"min sea level pressure inches",
+						"max visibility miles",
+						"mean visibility miles",
+						"min visibility miles",
+						"max wind speed mph",
+						"mean wind speed mph",
+						"max gust speed mph",
+						"precipitation inches",
+						"cloud cover",
+						"events",
+						"wind dir degrees",
+						"zip code"
+					]
+				}
+			],
+			[
+				"unanswerable by sql",
+				"the average attendance for the buffalo bills was 12315",
+				{
+					"2-15412699-1.html.csv": [
+						"week",
+						"date",
+						"opponent",
+						"result",
+						"attendance"
+					]
+				}
+			],
+			[
+				"unanswerable by sql",
+				"employee 10 earn 10000 $ than employee 1.",
+				{
+					"flight": [
+						"flight number",
+						"origin",
+						"destination",
+						"distance",
+						"departure date",
+						"arrival date",
+						"price",
+						"airline id"
+					],
+					"aircraft": [
+						"airline id",
+						"name",
+						"distance",
+						"first name",
+						"last name"
+					],
+					"employee": [
+						"employee id",
+						"name",
+						"salary",
+						"first name",
+						"last name"
+					],
+					"certificate": [
+						"employee id",
+						"airline id"
+					]
+				}
+			],
+			[
+				"unanswerable by sql",
+				"Which movie id is the longest ?",
+				{
+					"movie": [
+						"movie id",
+						"title",
+						"year",
+						"director"
+					],
+					"reviewer": [
+						"reviewer id",
+						"name"
+					],
+					"rating": [
+						"reviewer id",
+						"movie id",
+						"rating stars",
+						"rating date"
+					]
+				}
+			],
+			[
+				"unanswerable by sql",
+				"What is the data type of date ?",
+				{
+					"election": [
+						"election id",
+						"representative id",
+						"date",
+						"votes",
+						"vote percent",
+						"seats",
+						"place"
+					],
+					"representative": [
+						"representative id",
+						"name",
+						"state",
+						"party",
+						"lifespan"
+					]
+				}
+			],
+			[
+				"unanswerable by sql",
+				"in 2020, the population of stanthorpe is 1000000 more than that of allora",
+				{
+					"1-12584173-1": [
+						"year",
+						"population (region total)",
+						"population (stanthorpe)",
+						"population (warwick)",
+						"population (allora)",
+						"population (glengallan)",
+						"population (rosenthal)"
+					]
+				}
+			],
+			[
+				"unanswerable by sql",
+				"Whose name is the longest among all the writers ?",
+				{
+					"publication": [
+						"publication id",
+						"book id",
+						"publisher",
+						"publication date",
+						"price"
+					],
+					"book": [
+						"book id",
+						"title",
+						"issues",
+						"writer"
+					]
+				}
+			],
+			[
+				"unanswerable by sql",
+				"The data type of branch id is integer .",
+				{
+					"bank": [
+						"branch id",
+						"bname",
+						"no of customers",
+						"city",
+						"state"
+					],
+					"customer": [
+						"customer id",
+						"customer name",
+						"account type",
+						"account balance",
+						"number of loans",
+						"credit score",
+						"branch id",
+						"state"
+					],
+					"loan": [
+						"loan id",
+						"loan type",
+						"customer id",
+						"branch id",
+						"amount"
+					]
+				}
+			],
+			[
+				"unanswerable by sql",
+				"The number of gold is 10 less than that of bronze .",
+				{
+					"2-11729736-4": [
+						"nation",
+						"gold",
+						"silver",
+						"bronze",
+						"total"
+					]
+				}
+			],
+			[
+				"unanswerable by sql",
+				"All the campus established in 2019 are much more profitable than that established in 2020 .",
+				{
+					"campuses": [
+						"id",
+						"campus",
+						"location",
+						"county",
+						"year"
+					],
+					"csu fees": [
+						"campus",
+						"year",
+						"campus fee"
+					],
+					"degrees": [
+						"year",
+						"campus",
+						"degrees"
+					],
+					"discipline enrollments": [
+						"campus",
+						"discipline",
+						"year",
+						"undergraduate",
+						"graduate"
+					],
+					"enrollments": [
+						"campus",
+						"year",
+						"totalenrollment ay",
+						"fte ay"
+					],
+					"faculty": [
+						"campus",
+						"year",
+						"faculty"
+					]
+				}
+			],
+			[
+				"unanswerable by sql",
+				"Only by citing more than 10 paper, can a journal can be accepted .",
+				{
+					"author": [
+						"author id",
+						"author name"
+					],
+					"cite": [
+						"citing paper id",
+						"cited paper id"
+					],
+					"dataset": [
+						"dataset id",
+						"dataset name"
+					],
+					"journal": [
+						"journal id",
+						"journal name"
+					],
+					"key phrase": [
+						"key phrase id",
+						"key phrase name"
+					],
+					"paper": [
+						"paper id",
+						"title",
+						"venue id",
+						"year",
+						"number of citing",
+						"number cited by",
+						"journal id"
+					],
+					"paper dataset": [
+						"paper id",
+						"dataset id"
+					],
+					"paper key phrase": [
+						"paper id",
+						"key phrase id"
+					],
+					"venue": [
+						"venue id",
+						"venue name"
+					],
+					"writes": [
+						"paper id",
+						"author id"
+					]
+				}
+			],
+			[
+				"unanswerable by sql",
+				"the population of city 3 is bigger than the population of city 5 .",
+				{
+					"city": [
+						"id",
+						"name",
+						"country code",
+						"district",
+						"population"
+					],
+					"sqlite sequence": [
+						"name",
+						"seq"
+					],
+					"country": [
+						"code",
+						"name",
+						"continent",
+						"region",
+						"surface area",
+						"indepdent year",
+						"population",
+						"life expectancy",
+						"gnp",
+						"gnp old",
+						"local name",
+						"government form",
+						"head of state",
+						"capital",
+						"code2"
+					],
+					"countrylanguage": [
+						"countrycode",
+						"language",
+						"is official",
+						"percentage"
+					]
+				}
+			],
+			[
+				"unanswerable by sql",
+				"Are there any teachers who are older than 50 ?",
+				{
+					"course": [
+						"course id",
+						"staring date",
+						"course"
+					],
+					"teacher": [
+						"teacher id",
+						"name",
+						"age",
+						"hometown"
+					],
+					"course arrange": [
+						"course id",
+						"teacher id",
+						"grade"
+					]
+				}
+			],
+			[
+				"unanswerable by sql",
+				"Do customer 1 pay more than customer 7 ?",
+				{
+					"customers": [
+						"customer id",
+						"customer details"
+					],
+					"customer policies": [
+						"policy id",
+						"customer id",
+						"policy type code",
+						"start date",
+						"end date"
+					],
+					"claims": [
+						"claim id",
+						"policy id",
+						"date claim made",
+						"date claim settled",
+						"amount claimed",
+						"amount settled"
+					],
+					"settlements": [
+						"settlement id",
+						"claim id",
+						"date claim made",
+						"date claim settled",
+						"amount claimed",
+						"amount settled",
+						"customer policy id"
+					],
+					"payments": [
+						"payment id",
+						"settlement id",
+						"payment method code",
+						"date payment made",
+						"amount payment"
+					]
+				}
+			]
+		]
+	}
+}

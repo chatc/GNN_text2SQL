@@ -1,0 +1,999 @@
+Find {SELECT0} , whose {COLUMN0} {OP0} {VALUE0} .
+Find {SELECT0} .
+Find {SELECT0} , whose {COLUMN0} {OP0} {VALUE0} and {COLUMN1} {OP1} {VALUE1} .
+For each {COLUMN0}, what is {SELECT0} .
+What {COLUMN0} are the top {VALUE0} {AGG0} {SC0} . List {SELECT0} .
+List {SELECT0} that are the top {VALUE0} ranked by {COLUMN0} {SC0} .  
+For {COLUMN0} whose {AGG0} {OP0} {VALUE0} . List {SELECT0} .
+Find {SELECT0} that have {COLUMN0} {OP0} {SELECT1} .
+Show {SELECT0} with {COLUMN0} {SC0} .
+Show {SELECT0} ( or {SELECT1} ) that have both {COLUMN0} {OP0} {VALUE0} and {COLUMN1} {OP1} {VALUE1} .
+Find {SELECT0} , whose {COLUMN0} {OP0} {VALUE0} or {COLUMN1} {OP1} {VALUE1} .
+Find {SELECT0} , whose {COLUMN0} is not in {SELECT1} .
+What are {SELECT0} , ordered by {COLUMN0} .
+Find {SELECT0} , whose {COLUMN0} {OP0} {VALUE0} and {COLUMN1} {OP1} {VALUE1} and {COLUMN2} {OP2} {VALUE2} .
+For each {COLUMN1} whose {COLUMN0} {OP0} {VALUE0} , list {SELECT0} .
+For each {COLUMN0} , what are the first {VALUE0} {AGG0} {COLUMN1} {SC0} . List {SELECT0} .
+Show {SELECT0} with top {VALUE0} {COLUMN0} .
+Find {SELECT0} with {COLUMN0} {OP0} the {SELECT1} with {COLUMN1} {OP1} {VALUE0} .
+For each {COLUMN1} whose {COLUMN0} {OP0} {VALUE0} , what are the first {VALUE1} {AGG0} {SC0} . List {SELECT0} .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} , ordered by {COLUMN1} .
+For each {COLUMN1} with {COLUMN0} {OP0} {VALUE0} . List {SELECT0} in the order of {AGG0} {COLUMN2} {SC0} .
+For each {COLUMN0} whose {AGG0} {COLUMN1} {OP0} {VALUE0} , list {SELECT0} .
+List {SELECT0} whose {COLUMN0} between {VALUE0} and {VALUE1} .
+List {SELECT0} whose {COLUMN0} are not in {SELECT1} whose {COLUMN1} {OP0} {VALUE0} .
+List {SELECT0} whose {COLUMN0} are in {SELECT1} whose {COLUMN1} {OP0} {VALUE0} .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} and {COLUMN1} {OP1} {VALUE1} and {COLUMN2} {OP2} {VALUE2} and {COLUMN3} {OP3} {VALUE3} .
+Show fisrt {VALUE1} of {SELECT0} whose {COLUMN0} {OP0} {VALUE0} with {COLUMN0} {SC0} .
+Show {SELECT0} whose {COLUMN0} {OP0} {VALUE0} with {COLUMN0} {SC0} .
+What are {COLUMN0} ordered by {AGG0} {SC0} . List {SELECT0} .
+For each {COLUMN1} with {COLUMN0} {OP0} {VALUE0} whose {AGG0} {OP1} {VALUE1} . List {SELECT0} .
+Show {SELECT0} ( or {SELECT1} ) that have {COLUMN0} {OP0} {VALUE0} without {COLUMN1} {OP1} {VALUE1} .
+Find {SELECT0} whose {COLUMN0} {OP0} {SELECT1} whose {COLUMN1} {OP1} {VALUE0} and {COLUMN2} {OP2} {VALUE1} .
+For each {COLUMN2} with {COLUMN0} {OP0} {VALUE0} and {COLUMN1} {OP1} {VALUE1} , list {SELECT0} , ordered by {AGG0} {COLUMN3} {SC0} .
+What {COLUMN0} are the top {VALUE0} {AGG0} . List {SELECT0} .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} and {COLUMN1} {OP1} {VALUE1} and {COLUMN2} {OP2} {SELECT1} whose {COLUMN3} {OP3} {VALUE2} and {COLUMN4} {OP4} {VALUE3} .
+For {COLUMN1} with {COLUMN0} {OP0} {VALUE0} who are the first {VALUE1} {AGG0} {COLUMN2} {SC0} . List {SELECT0} .
+Find {SELECT0} who not only have {COLUMN0} {OP0} {SELECT1} whose {COLUMN1} is in {SELECT2} whose {COLUMN2} {OP1} {VALUE0}, but also have {COLUMN3} in {SELECT3} whose {COLUMN4} {OP2} {VALUE1} .
+Find {SELECT0} whose {COLUMN0} is in {SELECT1} whose {COLUMN1} {OP0} {SELECT2} .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} as well as {SELECT1} whose {COLUMN1} {OP1} {VALUE1} .
+For each {COLUMN1} whose {AGG0} {COLUMN2} {OP1} {VALUE1} , list {SELECT0} whose {COLUMN0} {OP0} {VALUE0} .
+Find {SELECT0} whose {COLUMN0} {OP0} {SELECT1} whose {COLUMN1} are the top {VALUE0} {AGG0} {SC0} .
+What {COLUMN0} are the top {VALUE0} {AGG0} {COLUMN1} . List {SELECT0} .
+Find {SELECT0} whose {COLUMN0} {OP0} {COLUMN1} .
+What {SELECT0} have {COLUMN0} {OP0} {VALUE0} and {COLUMN1} {OP1} {VALUE1} ? And what {SELECT1} have {COLUMN2} {OP2} {VALUE2} and {COLUMN3} {OP3} {VALUE3} ? Find union of them .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} and {COLUMN1} {OP1} {SELECT1} whose {COLUMN2} {OP2} {VALUE1} .
+What are {SELECT0} , sorted by {COLUMN0} , {COLUMN1} .
+Find {SELECT0} ( and {SELECT1} ) whose {COLUMN0} {OP0} {VALUE0} and {COLUMN1} {OP1} {VALUE1} ( and {COLUMN2} {OP2} {VALUE2} and {COLUMN3} {OP3} {VALUE3} ) .
+Find {SELECT0} whose {COLUMN0} {OP0} {SELECT1} whose {COLUMN1} {OP1} {SELECT2} .
+Find {SELECT0} whose {COLUMN0} {OP0} {SELECT1} whose {COLUMN1} in {SELECT2} whose {COLUMN2} {OP1} {SELECT3} and {COLUMN3} in {SELECT4} whose {COLUMN4} {OP2} {SELECT5} .
+Find {SELECT0} whose whose {COLUMN0} in {SELECT1} {SELECT2} whose {COLUMN1} {OP0} {VALUE0} and {COLUMN2} {OP1} {VALUE1} .
+What {COLUMN0} , {COLUMN1} are the top {VALUE0} {AGG0} {SC0} ? List {SELECT0} .
+For each {COLUMN1} with {COLUMN0} {OP0} {VALUE0} , what are {SELECT0} sorted by {COLUMN2} .
+For each {COLUMN2} with {COLUMN0} {OP0} {VALUE0} and {COLUMN1} {OP1} {VALUE1} , list {SELECT0} .
+What {COLUMN0} are the top {VALUE0} {AGG0} {COLUMN1} {SC0} . List {SELECT0} .
+List {SELECT0} whose {COLUMN0} {OP0} {VALUE0} without {SELECT1} .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} and {COLUMN1} are bewteen {VALUE1} and {VALUE2} .
+Find {SELECT0} whose {COLUMN0} {OP0} {SELECT1} whose {COLUMN1} are top {VALUE0} {SC0} .
+What are top {VALUE1} {COLUMN2} {SC0} with {COLUMN0} in {SELECT1} whose {COLUMN1} {OP0} {VALUE0} . List {SELECT0} .
+For each {COLUMN0} , list {SELECT0} ordered by {COLUMN1} .
+For each {COLUMN0} , {COLUMN1} , what are {SELECT0} .
+What are {SELECT0} whose {COLUMN0} {OP0} {VALUE0} for each {COLUMN1} , ordered by {COLUMN2} {SC0} .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} and {COLUMN1} is one of {SELECT1} whose {COLUMN2} {OP1} {VALUE1} .
+Find {SELECT0} whose {COLUMN0} is one of {SELECT1} whose {COLUMN1} {OP0} {VALUE0} and {COLUMN2} {OP1} {VALUE1} .
+What {COLUMN0} are the top {AGG0} {COLUMN1} {SC0} . List {SELECT0} .
+For each {COLUMN0} whose {AGG0} is between {VALUE0} and {VALUE1} , list {SELECT0} .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} . Find {SELECT1} whose {COLUMN1} {OP1} {VALUE1} and {COLUMN2} {OP2} {VALUE2} . Show the union of them.
+What are the top {VALUE1} {COLUMN1} whose {COLUMN0} {OP0} {VALUE0} . List {SELECT0} .
+What are the top {VALUE1} {COLUMN2} {SC0} whose {COLUMN0} {OP0} {VALUE0} and {COLUMN1} {OP1} {VALUE1} . List {SELECT0} .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} and {COLUMN1} {OP1} {VALUE1} . Find {SELECT1} whose {COLUMN2} {OP2} {VALUE2} and {COLUMN3} {OP3} {VALUE3} . Show {SELECT0} in first sentence but not in the second one .
+Find {SELECT0} whose {COLUMN0} {OP0} {SELECT1} . For these {SELECT1} , {COLUMN1} {OP1} {VALUE0} and {COLUMN2} {OP2} {VALUE1} .
+What are the top {VALUE0} {COLUMN1} {SC0} with {COLUMN0} {OP0} {SELECT1} . List {SELECT0} .
+Find {SELECT0} whose {COLUMN0} NOT {OP0} {VALUE0} .
+Find {SELECT0} whose {COLUMN0} is one of {SELECT1} whose {COLUMN1} {OP0} {VALUE0} and whose {COLUMN2} is one of {SELECT2} whose {COLUMN2} {OP1} {VALUE1} .
+Find {SELECT0} whose {COLUMN0} is one of {SELECT1} whose {COLUMN1} is one of {SELECT2} whose {COLUMN2} {OP0} {VALUE0} .
+Find {SELECT0} whose {COLUMN0} is one of {SELECT1} whose {COLUMN1} are top {VALUE0} {AGG0} {SC0} .
+find {SELECT0} in which the difference between the {COLUMN0} and {COLUMN1} was the top {VALUE0} .
+For each {COLUMN0} , what are the first {VALUE0} {COLUMN1} {SC0} ? List {SELECT0} .
+For each {COLUMN0} , what are top {AGG0} {COLUMN1} ? List {SELECT0} .
+For each {COLUMN0} whose {AGG0} {COLUMN1} {OP0} {SELECT1} , list {SELECT0} .
+For each {COLUMN0} whose {AGG0} {OP0} {VALUE0} , find {SELECT0} . For each {COLUMN1} whose {AGG1} {OP1} {VALUE1} , find {SELECT1} . Show the union of them.
+For each {COLUMN0} , {COLUMN1} whose {AGG0} {COLUMN2} {OP0} {VALUE0} , what are {SELECT0} .
+What are the top {COLUMN1} , {COLUMN2} with {COLUMN0} {OP0} {VALUE0} . Find {SELECT0} .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} . For the top {COLUMN1} whose {AGG0} {COLUMN2} {OP1} {VALUE1} , find {SELECT1} . Show the intersection of them.
+For each {COLUMN2} whose  {AGG0} {COLUMN3} {OP2} {VALUE2} . Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} and {COLUMN1} {OP1} {VALUE1} .
+Find {SELECT0} whose {COLUMN0} is one of {SELECT1} .
+For each {COLUMN0} ordered by {AGG0} , what are {SELECT0} .
+For each {COLUMN0} whose {AGG0} {COLUMN1} {OP0} {VALUE0} or {AGG1} {COLUMN2} {OP1} {VALUE1} , find {SELECT0} .
+For each {COLUMN0} whose {AGG0} {OP0} {VALUE0} , find {SELECT0} ordered by {COLUMN1} .
+For each {COLUMN0} whose {AGG0} {OP0} {VALUE0} , find {SELECT0} . For each {COLUMN1} whose {AGG1} {OP1} {VALUE1} , find {SELECT1} . Show the intersection of them .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} . Find {SELECT1} whose {COLUMN1} {OP1} {VALUE1} . Show the union of them .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} . For each {COLUMN1} whose {AGG0} {OP1} {VALUE1} , find {SELECT1} . Find the union of them .
+What are the top {COLUMN1} {SC0} , {COLUMN2} {SC1} , find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} or {COLUMN1} {OP1} {VALUE1} , {SC0}  of {COLUMN2} .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} or {COLUMN1} {OP1} {VALUE1} without {SELECT1} whose {COLUMN2} {OP2} {VALUE2} .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} . Find {SELECT1} whose {COLUMN1} {OP1} {VALUE1} . Show the intersection of them .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} . For each {COLUMN1} whose {AGG0} {OP1} {VALUE1} , find {SELECT1} . Show intersection of them .
+What {COLUMN1} are the top {AGG0} {SC0} with {COLUMN0} {OP0} {VALUE0} . List {SELECT0} .
+What {COLUMN1} are the top {AGG0} {OP1} {VALUE1} with {COLUMN0} {OP0} {VALUE0} . List {SELECT0} .
+What {COLUMN1} are the top {VALUE1} {AGG0} with {COLUMN0} {OP0} {VALUE0} . List {SELECT0} .
+What {COLUMN1} , {COLUMN2} are the top {COLUMN3} {SC0} with {COLUMN0} {OP0} {VALUE0} . List {SELECT0} .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} without {SELECT1} whose {COLUMN1} {OP1} {VALUE1} or {COLUMN2} {OP2} {VALUE2} .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} without {SELECT1} whose {COLUMN1} {OP1} {VALUE1} and {COLUMN2} {OP2} {VALUE2} .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} without {SELECT1} whose {COLUMN1} {OP1} {VALUE1} .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} without {SELECT1} whose {AGG0} {COLUMN2} {OP1} {VALUE1} for each {COLUMN1} .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} without {SELECT1} whose {AGG0} {OP1} {VALUE1} for each {COLUMN1} .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} and {COLUMN1} {OP1} {VALUE1} or {COLUMN2} {OP2} {VALUE2} .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} and {COLUMN1} {OP1} {VALUE1} . Find {SELECT1} whose {COLUMN2} {OP2} {VALUE2} . Show the intersection of them .
+What are the {COLUMN2} whose {AGG0} {OP2} {VALUE2} . Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} and {COLUMN1} {OP1} {VALUE1} .
+For each {COLUMN3} , find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} and {COLUMN1} {OP1} {VALUE1} and {COLUMN2} {OP2} {VALUE2} .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} and {COLUMN1} {OP1} {VALUE1} and {COLUMN2} is between {VALUE2} and {VALUE3} .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} and {COLUMN1} {OP1} {SELECT1} whose {COLUMN2} {OP2} {VALUE1} and {COLUMN3} {OP3} .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} and {COLUMN1} {OP1} {SELECT1} whose {COLUMN2} {OP2} {SELECT2} .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} and {COLUMN1} {OP1} {SELECT1} .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} and {COLUMN1} is not one of {SELECT1} whose {COLUMN2} {OP1} {VALUE1} or {COLUMN3} {OP2} {VALUE2} .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} and {COLUMN1} is between {VALUE1} and {VALUE2} and {COLUMN2} {OP1} {VALUE3} .
+Find {SELECT0} whose {COLUMN0} {OP0} {COLUMN1} . Find {SELECT1} . Show the union of them .
+What are the top {COLUMN2} , {COLUMN3} whose {COLUMN0} {OP0} {COLUMN1} ? Show {SELECT0} .
+Find {SELECT0} whose {COLUMN0} {OP0} {COLUMN1} or {COLUMN2} {OP1} {COLUMN3} .
+Find {SELECT0} whose {COLUMN0} {OP0} {COLUMN1} . Find {SELECT1} . SHow the intersection of them .
+Find {SELECT0} whose {COLUMN0} {OP0} {COLUMN1} without {SELECT1} .
+Find {SELECT0} whose {COLUMN0} {OP0} the sum of {COLUMN1} and {COLUMN2} .
+For each {COLUMN2} , what are the top {VALUE1} {AGG0} {SC0} ? Find {SELECT1} whose {COLUMN1} {OP1} {VALUE0} . Show {SELECT0} whose {COLUMN0} {OP0} this value .
+What are the top {COLUMN2} ? Show {SELECT0} whose {COLUMN0} {OP0} {SELECT1} whsoe {COLUMN1} {OP1} {VALUE0} .
+Find {SELECT1} of top {VALUE0} {COLUMN1} . Show {SELECT0} whose {COLUMN0} {OP0} this value .
+Find {SELECT0} whose {COLUMN0} {OP0} {SELECT1} . Find {SELECT2} whose {COLUMN1} {OP1} {SELECT3} . Show the intersection of them .
+For each {COLUMN1} , find {SELECT0} whose {COLUMN0} {OP0} {SELECT1} .
+Find {SELECT0} whose {COLUMN0} {OP0} {SELECT1} and {COLUMN1} is one of {SELECT2} whose {COLUMN2} {OP1} {VALUE0} .
+Find {SELECT0} whose {COLUMN0} not {OP0} {VALUE0} , ordered by {COLUMN1} .
+For each {COLUMN2} , find {SELECT0} whose {COLUMN0} is not one of {SELECT1} whose {COLUMN1} {OP0} {VALUE0} .
+Find {SELECT0} whose {COLUMN0} is not one of {SELECT1} whose {COLUMN1} is between {VALUE0} and {VALUE1} .
+For each {COLUMN1} whose {AGG0} {COLUMN2} {OP0} {VALUE0} , find {SELECT1} . Show {SELECT0} whose {COLUMN0} is not one of these values .
+What are {SELECT1} whose {COLUMN1} {OP0} {VALUE0} without {SELECT2} whose {COLUMN2} {OP1} {VALUE1} ? Show {SELECT0} whose {COLUMN0} is one of these values .
+What are {SELECT1} whose {COLUMN1} {OP0} {VALUE0} and {COLUMN2} {OP1} {VALUE1} ? Show {SELECT0} whose {COLUMN0} is one of these values .
+What are the top {VALUE1} {COLUMN2} ? Show {SELECT0} whose {COLUMN0} is one of {SELECT1} whose {COLUMN1} {OP0} {VALUE0} .
+Find {SELECT0} whose {COLUMN0} is one of {SELECT1} whose {COLUMN1} {OP0} {VALUE0} . Find {SELECT2} whose {COLUMN2} is one of {SELECT3} whose {COLUMN3} {OP1} {VALUE1} . Show the intersection of them .
+Find {SELECT0} whose {COLUMN0} is one of {SELECT1} whose {COLUMN1} {OP0} {VALUE0}  , but without {SELECT2} whose {COLUMN2} is one of {SELECT3} whose {COLUMN3} {OP1} {VALUE1} .
+1. For each {COLUMN1} , what are the top {VALUE0} {AGG0} {SC0} . List {SELECT1} . 2. Find {SELECT0} whose {COLUMN0} is one of results of step 1 . 3. Find {SELECT2} whose {COLUMN2} {OP0} {VALUE1} . 4. Find the union of results of step 2 and step 3 .
+Find {SELECT0} whose {COLUMN0} is one of {SELECT1} for each {COLUMN1} .
+Find {SELECT0} whose {COLUMN0} is between {VALUE0} and {VALUE1} and {COLUMN1} {OP0} {VALUE2} or {COLUMN2} {OP1} {VALUE3} .
+Find {SELECT0} whose {COLUMN0} is between {SELECT1} and {VALUE0} .
+What are {COLUMN2} whose {AGG0} {OP1} {VALUE1} ? Find {SELECT0} whose {COLUMN0} minus {COLUMN1} {OP0} {VALUE0} .
+Find {SELECT0} whose {COLUMN0} minus {COLUMN1} {OP0} {VALUE0} .
+What are the top {VALUE0} of {COLUMN2} minus {COLUMN3} {SC0} , find {SELECT1} . Show {SELECT0} whose {COLUMN0} minus {COLUMN1} {OP0} this value .
+Find {SELECT0} , ordered by {COLUMN0} , {COLUMN1} , and {COLUMN2} .
+Find {SELECT0} , ordered by the sum of {COLUMN0} and {COLUMN1} {SC0} .
+Find top {VALUE0} {SELECT0} , ordered by the sum of {COLUMN0} and {COLUMN1} .
+Find {SELECT0} , ordered by the sum of {COLUMN0} and {COLUMN1} .
+1. What {COLUMN0} are the top {VALUE0} {AGG0} {SC0} . List {SELECT0} . 2. What {COLUMN1} are the top {VALUE1} {AGG1} {SC1} . List {SELECT1} . 3. Find the intersection of the results of step 1 and step 2.
+What {COLUMN0} whose {COLUMN1} {OP0} {VALUE0} are the top {VALUE1} {AGG0} {SC0} . List {SELECT0} .
+For each {COLUMN0} whose {AGG0} {COLUMN1} {OP0} {VALUE0} , list {SELECT0} . Find {SELECT1} whose {COLUMN2} {OP1} {VALUE1} . Show the union of them .
+For each {COLUMN0} whose {AGG0} {COLUMN1} {OP0} {VALUE0} , list {SELECT0} . For each {COLUMN2} whose {AGG1} {OP1} {VALUE1} , list {SELECT1} . Show the intersection of them .
+For each {COLUMN0} whose {AGG0} {COLUMN1} {OP0} {VALUE0} , list {SELECT0} without {SELECT1} whose {COLUMN2} {OP1} {VALUE1} .
+For each {COLUMN0} whose {AGG0} {OP0} {VALUE0} , list {SELECT0} . Find {SELECT1} whose {COLUMN1} {OP1} {SELECT2} . Show the union of them .
+For each {COLUMN0} whose {AGG0} {OP0} {VALUE0} , list {SELECT0} . For each {COLUMN1} whose {AGG1} {COLUMN2} {OP1} {VALUE1} , list {SELECT1} . Show the union of them .
+For each {COLUMN0} whose {AGG0} {OP0} {VALUE0} , list {SELECT0} ordered by {COLUMN1} {SC0} .
+For each {COLUMN0} whose {AGG0} {OP0} {VALUE0} , list {SELECT0} ordered by {AGG1} .
+For each {COLUMN0} whose {AGG0} {OP0} {VALUE0} , list {SELECT0} . For each {COLUMN1} whose {AGG1} {COLUMN2} {OP1} {VALUE1} , list {SELECT1} . Show the intersection of them .
+For each {COLUMN0} whose {AGG0} {OP0} {VALUE0} , list {SELECT0} without {SELECT1} .
+For each {COLUMN0} whose {AGG0} {OP0} {VALUE0} , list {SELECT0} .
+What {COLUMN0} , {COLUMN1} are the top {VALUE0} {AGG0} . List {SELECT0} .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} ordered by {COLUMN1} and {COLUMN2} {SC0} .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} or {COLUMN1} {OP1} {VALUE1} ordered by {COLUMN2} and {COLUMN3} .
+For each {COLUMN1} whose {AGG0} {OP1} {VALUE1} , find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} and {COLUMN1} {OP1} {VALUE1} , ordered by {COLUMN2} .
+What {COLUMN2} are the top {VALUE2} {AGG0} {COLUMN3} {SC0} ? List {SELECT0} whose {COLUMN0} {OP0} {VALUE0} and {COLUMN1} {OP1} {VALUE1} .
+For each {COLUMN2} , {COLUMN3} , what are {SELECT0} whose {COLUMN0} {OP0} {VALUE0} and {COLUMN1} {OP1} {VALUE1} , ordered by {AGG0} {COLUMN4} {SC0} .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} and {COLUMN1} {OP1} {VALUE1} without {SELECT1} whose {COLUMN2} {OP2} {VALUE2} .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} and {COLUMN1} {OP1} {VALUE1} and {COLUMN2} is one of {SELECT1} whose {COLUMN3} {OP2} {VALUE2} .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} and {COLUMN1} is not one of {SELECT1} .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} and {COLUMN1} is one of {SELECT1} whose {COLUMN2} {OP1} {VALUE1} and {COLUMN3} {OP2} {VALUE2} .
+Find {SELECT0} whose {COLUMN0} {OP0} {VALUE0} and {COLUMN1} is one of {SELECT1} whose {COLUMN2} {OP1} is one of {SELECT2} whose {COLUMN3} {OP1} {VALUE1} and {COLUMN4} {OP2} {VALUE2} .
+1. What {COLUMN2} are the top {VALUE1} {AGG0} {COLUMN3} {SC0} ? List {SELECT1} whose {COLUMN1} {OP1} {VALUE0} . 2. What are the top {VALUE2} {COLUMN4} {SC1} whose {COLUMN0} {OP0} the results of step 1 ? List {SELECT0} .
+Find {SELECT0} whose {COLUMN0} {OP0} {SELECT1} whose {COLUMN1} {OP1} {SELECT2} whose {COLUMN2} {OP2} {VALUE0} .
+Find {SELECT0} whose {COLUMN0} {OP0} {SELECT1} whose {COLUMN1} {OP1} {SELECT2} whose {COLUMN2} {OP2} {SELECT3} whose {COLUMN3} {OP3} {SELECT4} .
+Find {SELECT0} whose {COLUMN0} {OP0} {SELECT1} whose {COLUMN1} is one of {SELECT2} whose {COLUMN2} {OP1} {VALUE0} .
+1. Find {SELECT1} whose {COLUMN1} is one of {SELECT2} whose {COLUMN2} is one of {SELECT3} whose {COLUMN3} {OP1} {SELECT4} 2. Find {SELECT0} whose {COLUMN0} {OP0}  the results of step 1 , and {COLUMN4} is one of {SELECT5} whose {COLUMN5} is one of {SELECT6} whose {COLUMN6} {OP2} {SELECT7} .
+Find {SELECT0} whose {COLUMN0} {OP0} {SELECT1} or {COLUMN1} {OP1} {SELECT2} .
+Find the top {VALUE2} {COLUMN6} {SC0} . List {SELECT0} whose {COLUMN0} is one of {SELECT1} whose {COLUMN1} is one of {SELECT2} whose {COLUMN2} {OP0} {VALUE0} and {COLUMN3} {OP1} {SELECT3} whose {COLUMN4} is one of {SELECT4} whose {COLUMN5} {OP2} {VALUE1} .
+Find the {SELECT0} whose {COLUMN0} is one of {SELECT1} whose {COLUMN1} is one of {SELECT2} whose {COLUMN2} {OP0} {SELECT3} .
+For each {COLUMN0} whose {COLUMN1} {OP0} {VALUE0} , find {SELECT0} .
+For each {COLUMN0} whose {AGG0} {COLUMN1} {OP0} {VALUE0} , find {SELECT0} ordered by {AGG1} {COLUMN2} {SC0} .
+For each {COLUMN0} whose {AGG0} {COLUMN1} is between {VALUE0} and {VALUE1} , list {SELECT0} .
+For each {COLUMN0} whose {AGG0} {OP0} {SELECT1} whose {COLUMN1} {OP1} {VALUE0} , find {SELECT0} .
+What {COLUMN0} , {COLUMN1} and {COLUMN2} are the top {VALUE0} {AGG0} {SC0} . List {SELECT0} .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,108 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
+<center>
+<h1>{SELECT0} {FROM} WHERE {COLUMN0} {OP0} {VALUE0}</h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 100%;
+            height: 750px;
+            background-color: #ffffff;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"group": 0, "id": "q0", "label": "q0", "shape": "dot", "size": 10, "title": "show"}, {"group": 1, "id": "c11", "label": "c11", "shape": "dot", "size": 10, "title": ["document", "name", "\u003ctype: text\u003e"]}, {"group": 0, "id": "q1", "label": "q1", "shape": "dot", "size": 10, "title": "paragraph"}, {"group": 1, "id": "c14", "label": "c14", "shape": "dot", "size": 10, "title": ["paragraph", "id", "\u003ctype: number\u003e"]}, {"group": 1, "id": "c16", "label": "c16", "shape": "dot", "size": 10, "title": ["paragraph", "text", "\u003ctype: text\u003e"]}, {"group": 1, "id": "c3", "label": "c3", "shape": "dot", "size": 10, "title": ["template", "id", "\u003ctype: number\u003e"]}, {"group": 0, "id": "q4", "label": "q4", "shape": "dot", "size": 10, "title": "paragraph"}, {"group": 0, "id": "q8", "label": "q8", "shape": "dot", "size": 10, "title": "korea"}, {"group": 1, "id": "c0", "label": "c0", "shape": "dot", "size": 10, "title": ["*", "\u003ctype: text\u003e"]}, {"id": "tNone", "label": "tNone", "shape": "dot", "size": 10}, {"group": 1, "id": "c1", "label": "c1", "shape": "dot", "size": 10, "title": ["template", "type", "code", "\u003ctype: text\u003e"]}, {"group": 2, "id": "t0", "label": "t0", "shape": "dot", "size": 10, "title": ["reference", "template", "types"]}, {"group": 1, "id": "c5", "label": "c5", "shape": "dot", "size": 10, "title": ["template", "type", "code", "\u003ctype: text\u003e"]}, {"group": 1, "id": "c2", "label": "c2", "shape": "dot", "size": 10, "title": ["template", "type", "description", "\u003ctype: text\u003e"]}, {"group": 2, "id": "t1", "label": "t1", "shape": "dot", "size": 10, "title": ["template", "##s"]}, {"group": 1, "id": "c10", "label": "c10", "shape": "dot", "size": 10, "title": ["template", "id", "\u003ctype: number\u003e"]}, {"group": 1, "id": "c4", "label": "c4", "shape": "dot", "size": 10, "title": ["version", "number", "\u003ctype: number\u003e"]}, {"group": 1, "id": "c6", "label": "c6", "shape": "dot", "size": 10, "title": ["date", "effective", "from", "\u003ctype: time\u003e"]}, {"group": 1, "id": "c7", "label": "c7", "shape": "dot", "size": 10, "title": ["date", "effective", "to", "\u003ctype: time\u003e"]}, {"group": 1, "id": "c8", "label": "c8", "shape": "dot", "size": 10, "title": ["template", "details", "\u003ctype: text\u003e"]}, {"group": 1, "id": "c9", "label": "c9", "shape": "dot", "size": 10, "title": ["document", "id", "\u003ctype: number\u003e"]}, {"group": 2, "id": "t2", "label": "t2", "shape": "dot", "size": 10, "title": ["documents"]}, {"group": 1, "id": "c15", "label": "c15", "shape": "dot", "size": 10, "title": ["document", "id", "\u003ctype: number\u003e"]}, {"group": 1, "id": "c12", "label": "c12", "shape": "dot", "size": 10, "title": ["document", "description", "\u003ctype: text\u003e"]}, {"group": 1, "id": "c13", "label": "c13", "shape": "dot", "size": 10, "title": ["other", "details", "\u003ctype: text\u003e"]}, {"group": 2, "id": "t3", "label": "t3", "shape": "dot", "size": 10, "title": ["paragraph", "##s"]}, {"group": 1, "id": "c17", "label": "c17", "shape": "dot", "size": 10, "title": ["other", "details", "\u003ctype: text\u003e"]}, {"group": 0, "id": "q2", "label": "q2", "shape": "dot", "size": 10, "title": "details"}, {"group": 0, "id": "q3", "label": "q3", "shape": "dot", "size": 10, "title": "for"}, {"group": 0, "id": "q5", "label": "q5", "shape": "dot", "size": 10, "title": "with"}, {"group": 0, "id": "q6", "label": "q6", "shape": "dot", "size": 10, "title": "text"}, {"group": 0, "id": "q7", "label": "q7", "shape": "dot", "size": 10, "title": "\u0027"}, {"group": 0, "id": "q9", "label": "q9", "shape": "dot", "size": 10, "title": "\u0027"}, {"group": 0, "id": "q10", "label": "q10", "shape": "dot", "size": 10, "title": "."}]);
+        edges = new vis.DataSet([{"from": "q0", "group": 0, "title": "cell_match", "to": "c11", "weight": 1}, {"from": "q1", "group": 0, "title": "q_col_match", "to": "c14", "weight": 1}, {"from": "q1", "group": 0, "title": "q_col_match", "to": "c16", "weight": 1}, {"from": "q1", "group": 0, "title": "q_tab_match", "to": "c3", "weight": 1}, {"from": "q4", "group": 0, "title": "q_col_match", "to": "c14", "weight": 1}, {"from": "q4", "group": 0, "title": "q_col_match", "to": "c16", "weight": 1}, {"from": "q4", "group": 0, "title": "q_tab_match", "to": "c3", "weight": 1}, {"from": "q8", "group": 0, "title": "cell_match", "to": "c11", "weight": 1}, {"from": "q8", "group": 0, "title": "cell_match", "to": "c16", "weight": 1}, {"from": "c0", "group": 1, "title": "column_to_table", "to": "tNone", "weight": 1}, {"from": "c1", "group": 1, "title": "column_to_table", "to": "t0", "weight": 1}, {"from": "c1", "group": 2, "title": "foreign_keys", "to": "c5", "weight": 1}, {"from": "c2", "group": 1, "title": "column_to_table", "to": "t0", "weight": 1}, {"from": "c3", "group": 1, "title": "column_to_table", "to": "t1", "weight": 1}, {"from": "c3", "group": 2, "title": "foreign_keys", "to": "c10", "weight": 1}, {"from": "c4", "group": 1, "title": "column_to_table", "to": "t1", "weight": 1}, {"from": "c5", "group": 1, "title": "column_to_table", "to": "t1", "weight": 1}, {"from": "c6", "group": 1, "title": "column_to_table", "to": "t1", "weight": 1}, {"from": "c7", "group": 1, "title": "column_to_table", "to": "t1", "weight": 1}, {"from": "c8", "group": 1, "title": "column_to_table", "to": "t1", "weight": 1}, {"from": "c9", "group": 1, "title": "column_to_table", "to": "t2", "weight": 1}, {"from": "c9", "group": 2, "title": "foreign_keys", "to": "c15", "weight": 1}, {"from": "c10", "group": 1, "title": "column_to_table", "to": "t2", "weight": 1}, {"from": "c11", "group": 1, "title": "column_to_table", "to": "t2", "weight": 1}, {"from": "c12", "group": 1, "title": "column_to_table", "to": "t2", "weight": 1}, {"from": "c13", "group": 1, "title": "column_to_table", "to": "t2", "weight": 1}, {"from": "c14", "group": 1, "title": "column_to_table", "to": "t3", "weight": 1}, {"from": "c15", "group": 1, "title": "column_to_table", "to": "t3", "weight": 1}, {"from": "c16", "group": 1, "title": "column_to_table", "to": "t3", "weight": 1}, {"from": "c17", "group": 1, "title": "column_to_table", "to": "t3", "weight": 1}, {"from": "t0", "group": 3, "title": "foreign_key_tables", "to": "t1", "weight": 1}, {"from": "t1", "group": 3, "title": "foreign_key_tables", "to": "t2", "weight": 1}, {"from": "t2", "group": 3, "title": "foreign_key_tables", "to": "t3", "weight": 1}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": false,
+            "type": "continuous"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        
+
+        network = new vis.Network(container, data, options);
+
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>
